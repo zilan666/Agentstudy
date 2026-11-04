@@ -1,7 +1,7 @@
 [project]
 name = "agent"
 version = "0.1.0"
-description = "Add your description here"
+description = "AI Agent 学习项目"
 readme = "README.md"
 authors = [
     { name = "zilan666", email = "105700799+zilan666@users.noreply.github.com" }

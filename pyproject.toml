@@ -7,7 +7,9 @@ authors = [
     { name = "zilan666", email = "105700799+zilan666@users.noreply.github.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "pydantic>=2.14.3",
+]
 
 [project.scripts]
 agent = "agent:main"
@@ -22,6 +24,7 @@ default = true
 
 [dependency-groups]
 dev = [
+    "mypy>=2.4.1",
     "pytest>=9.2.0",
     "ruff>=0.17.3",
 ]
